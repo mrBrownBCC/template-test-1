@@ -7,6 +7,13 @@
       "vncPort": "5901"
     }
   },
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "Desktop",
+      "onAutoForward": "openBrowser"
+    }
+  },
   "containerUser": "vscode",
   "overrideCommand": false,
   "customizations": {
